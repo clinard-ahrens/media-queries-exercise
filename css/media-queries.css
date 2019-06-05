@@ -1,6 +1,6 @@
 body {
     display:inline-block;
-    width: 900px;
+    width: 90%;
 }
 
 ul {
@@ -40,14 +40,27 @@ footer {
     padding-top: 400px;
 }
 /*mobile devices*/
-/*@media screen and (min-width:339) {*/
-/*    selector {*/
-/*        property: value;*/
-/*    }*/
-/*}*/
-/*desktop*/
-/*@media screen and (min-width:890) {*/
-/*    selector {*/
-/*        property: value;*/
-/*    }*/
-/*}*/
+@media screen and (max-width:375px){
+    body {
+        display: inline;
+    }
+    nav {
+        width: 50px;
+        float: left;
+    }
+    h1 {
+        float: none;
+        text-align: center;
+        margin: 350px;
+    }
+    .header-img {
+        width: 339;
+        height: 249;
+    }
+}
+
+/*tablet*/
+/*
+@media screen and (min-width:376px) and (max-width:1050px) {
+    selector property: value;
+}
