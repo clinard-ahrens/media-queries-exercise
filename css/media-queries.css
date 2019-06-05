@@ -1,0 +1,53 @@
+body {
+    display:inline-block;
+    width: 900px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 192px;
+}
+
+li {
+    display:inline;
+    padding: 10px;
+
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+    width: 50%;
+}
+h1 {
+    float:left;
+    width: 50%;
+}
+.header-img{
+    align-content:center;
+}
+.main {
+    float:left;
+    width: 75%;
+}
+.subsection {
+    width: 25%;
+}
+
+footer {
+    padding-top: 400px;
+}
+/*mobile devices*/
+/*@media screen and (min-width:339) {*/
+/*    selector {*/
+/*        property: value;*/
+/*    }*/
+/*}*/
+/*desktop*/
+/*@media screen and (min-width:890) {*/
+/*    selector {*/
+/*        property: value;*/
+/*    }*/
+/*}*/
